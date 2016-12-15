@@ -1,0 +1,7 @@
+
+div {
+  width: 500px;
+  height: 500px;
+  background-image: url(lala.jpg), url(pdf.png), url(valencia.jpg), url(zip.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, left, right, top;

@@ -1,0 +1,38 @@
+p {
+   border: 5px navy;
+   border-style: dotted double;
+   margin: 2em;
+   padding: 2em;
+   background: #F8D575;
+}
+.content-box { background-clip: content-box; }
+
+
+#size{
+   background-image:    url("lala.jpg"),
+                        url("zip.png"),
+                        url("pdf.png");
+
+   background-position: 0% 0%,
+                        50% 50%;
+
+   background-size:     30px 30px,
+                        250px 250px,
+                        700px 450px;
+
+   background-repeat: no-repeat;
+   width:700px;
+   height:450px;
+}
+
+body {
+  background:white;
+  margin:50px;
+}
+
+#origin{
+  border:4px dotted #FBE700;
+  background:url('valencia.jpg');
+  background-position:0 0;
+  background-origin:border-box;
+}

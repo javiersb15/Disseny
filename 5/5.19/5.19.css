@@ -1,0 +1,58 @@
+.caja {
+			margin: 20px;
+			width: 400px;
+			padding: 10px;
+			height: 40px;
+			background-color: #ccc;
+			border: 1px solid #666;
+			color: #333;
+			-webkit-transition-property: background-color, color;
+			-webkit-transition-timing-function: cubic-bezier(1,0,1,0);
+			-moz-transition-property: background-color, color;
+			-moz-transition-timing-function: cubic-bezier(1,0,1,0);
+			-o-transition-property: background-color, color;
+			-o-transition-timing-function: cubic-bezier(1,0,1,0);
+			-ms-transition-property: background-color, color;
+			-ms-transition-timing-function: cubic-bezier(1,0,1,0);
+		}
+
+		#container:hover .caja {
+				background-color: #f00;
+				color: #fff;
+			}
+			#container:hover #caja1 {
+				-webkit-transition-duration: 0.5s;
+				-moz-transition-duration: 0.5s;
+				-o-transition-duration: 0.5s;
+				-ms-transition-duration: 0.5s;
+			}
+			#container:hover #caja2 {
+				-webkit-transition-duration: 1s;
+				-moz-transition-duration: 1s;
+				-o-transition-duration: 1s;
+				-ms-transition-duration: 1s;
+			}
+			#container:hover #caja3 {
+				-webkit-transition-duration: 1.5s;
+				-moz-transition-duration: 1.5s;
+				-o-transition-duration: 1.5s;
+				-ms-transition-duration: 1.1s;
+			}
+			#container:hover #caja4 {
+				-webkit-transition-duration: 2s;
+				-moz-transition-duration: 2s;
+				-o-transition-duration: 2s;
+				-ms-transition-duration: 2s;
+			}
+			#container:hover #caja5 {
+				-webkit-transition-duration: 2.5s;
+				-moz-transition-duration: 2.5s;
+				-o-transition-duration: 2.5s;
+				-ms-transition-duration: 2.5s;
+			}
+			#container:hover #caja6 {
+				-webkit-transition-duration: 3s;
+				-moz-transition-duration: 3s;
+				-o-transition-duration: 3s;
+				-ms-transition-duration: 3s;
+			}

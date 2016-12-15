@@ -1,0 +1,36 @@
+body {
+  font: 13px/1.6 Tahoma, sans-serif;
+  background: yellow;
+}
+
+h1 {
+  font: normal 2em arial, sans-serif;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+#primero{
+color: red;
+font-size: 14px;
+}
+
+#segundo{
+color: green;
+font-size: 12px;
+}
+
+#tercero{
+color: pink;
+font-size: 10px;
+}
+
+#cuarto{
+color: purple;
+font-size: 8px;
+}
+
+#quinto{
+color: blue;
+font-size: 6px;
+}

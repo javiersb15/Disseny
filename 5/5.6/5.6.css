@@ -1,0 +1,24 @@
+#primer ul li:first-of-type, li:last-of-type{
+  background-color: yellow;
+}
+
+#primer{
+  width:300px;
+  border: 1px solid;
+  text-align: left;
+  padding-left: 100px;
+
+}
+
+#segon table tr td:first-of-type{
+  background-color: #ececec;
+
+}
+
+#segon{
+  width:300px;
+  border: 1px solid;
+  text-align: left;
+  padding-left: 100px;
+
+}

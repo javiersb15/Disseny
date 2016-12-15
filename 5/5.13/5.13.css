@@ -1,0 +1,25 @@
+#miCaja{
+position: absolute;
+top: 10px;
+left: 10px;
+width: 300px;
+height: 100px;
+background-color: lightyellow;
+-webkit-box-shadow: 10px 15px 8px 2px rgb(12,34,56);
+-moz-box-shadow: 10px 15px 8px 2px rgb(12,34,56);
+-o-box-shadow: 10px 15px 8px 2px rgb(12,34,56);
+box-shadow: 10px 15px 8px 2px rgb(12,34,56);
+}
+
+#laotraCaja{
+position: absolute;
+top: 20px;
+left: 400px;
+width: 300px;
+height: 100px;
+background-color: yellow;
+-webkit-box-shadow: 20px 35px 10px 5px rgb(2,3,4);
+-moz-box-shadow: 20px 35px 10px 5px rgb(2,3,4);
+-o-box-shadow: 20px 35px 10px 5px rgb(2,3,4);
+box-shadow: 20px 35px 10px 5px rgb(2,3,4);
+}

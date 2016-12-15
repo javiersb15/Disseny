@@ -1,0 +1,9 @@
+.esquerre {
+    position: relative;
+    left: -20px;
+}
+
+.dreta {
+    position: relative;
+    left: 20px;
+}

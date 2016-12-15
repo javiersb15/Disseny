@@ -1,0 +1,14 @@
+body{
+
+    width:300px;
+    border: 1px solid;
+    text-align: left;
+    padding-left: 100px;
+}
+
+div:target h2{
+  background-color: yellow;
+  
+
+
+}
