@@ -9,21 +9,38 @@
 </head>
 <body>
   <div class="container">
-    <div class="row clearfix">
-
-      <div class="column third">
-        <img src="mestalla.jpg">
-      </div>
-
-      <div class="column third">
-        <img src="mestalla1.jpg">
-      </div>
-
-      <div class="column third">
-        <img src="Valenciacf.png">
-      </div>
-
-    </div>
-  </div>
+     <div class="row clearfix">
+       <div class="column half">
+         <!-- Your Content -->
+         <picture>
+           <source
+             media="(min-width: 765px)"
+             srcset="valencia2.png">
+           <source
+             media="(min-width: 465px) and (max-width: 765px)"
+             srcset="valencia.jpg">
+           <img
+             media="(max-width: 465px)"
+             src="valencia2.png"
+             alt="Example logo">
+         </picture>
+       </div>
+       <div class="column half">
+         <!-- Your Content -->
+         <picture>
+           <source
+           media="(min-width: 765px)"
+           srcset="valencia2.png">
+         <source
+           media="(min-width: 465px) and (max-width: 765px)"
+           srcset="valencia.jpg">
+         <img
+           media="(max-width: 465px)"
+           src="valencia2.png"
+           alt="Example logo">
+         </picture>
+       </div>
+     </div>
+   </div>
 </body>
 </html>
