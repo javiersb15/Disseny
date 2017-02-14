@@ -8,6 +8,8 @@
 
   <title>Determining breakpoints DIW</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
 
   body {
@@ -20,35 +22,37 @@
 
   }
 
-  .col1 {
+  @media screen and (min-width: 1000px) {
+    .col1 {
 
-    float: left;
+      float: left;
 
-    width: 40%;
+      width: 40%;
 
-    margin-right: 5%;
+      margin-right: 5%;
 
+    }
+
+    .col2 {
+
+      float: left;
+
+      width: 25%;
+
+      margin-right: 5%;
+
+    }
+
+    .col3 {
+
+      float: right;
+
+      width: 25%;
+
+    }
   }
 
-  .col2 {
-
-    float: left;
-
-    width: 25%;
-
-    margin-right: 5%;
-
-  }
-
-  .col3 {
-
-    float: right;
-
-    width: 25%;
-
-  }
-
-  /*@media screen and (max-width: ) {
+  @media screen and (min-width: 570px) and (max-width: 1000px){
 
   .col1 {
 
@@ -80,9 +84,9 @@ clear: both;
 
 }
 
-}*/
+}
 
-/*@media screen and (max-width: 570px) {
+@media screen and (max-width: 570px) {
 
 .col1, .col2, .col3 {
 
@@ -94,7 +98,7 @@ margin: 0;
 
 }
 
-}*/
+}
 
 </style>
 
